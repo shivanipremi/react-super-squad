@@ -1,5 +1,22 @@
+body {
+  background-image: url("./assets/background.jpg");
+  height: 100%;
+  background-size : cover;
+  background-repeat: 0.8;
+}
+.delete {
+  color : red;
+}
 .App {
   text-align: center;
+  padding: 5%
+}
+.right-button {
+  cursor : pointer;
+  float: right;
+}
+.list-item {
+  display: inline-block;
 }
 
 .App-logo {
